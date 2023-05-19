@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 module.exports = {
-  publicPath: '/vue-js-notesapp/'
+  publicPath: 'https://gabriel-yagoub.github.io/vue-js-notesapp/'
 }
 
 // https://vitejs.dev/config/
