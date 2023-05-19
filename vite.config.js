@@ -6,3 +6,7 @@ export default defineConfig({
   base: '/vue-js-notesapp',
   plugins: [vue()],
 })
+
+module.exports = {
+  publicPath:'/vue-js-notesapp',
+}
