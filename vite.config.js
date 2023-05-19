@@ -3,10 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue-js-notesapp',
+  publicPath:'/vue-js-notesapp',
   plugins: [vue()],
 })
 
-module.exports = {
-  publicPath:'/vue-js-notesapp',
-}
